@@ -26,8 +26,8 @@ User follower14 = User('王颖', AssetImage('assets/images/15.jpg'), [], [], [],
 User follower15 = User('刘爱华', AssetImage('assets/images/17.jpg'), [], [], [], [], true,  '青浦区', 60.3, '深度保洁');
 User follower17 = User('李俊', AssetImage('assets/images/16.jpg'), [], [], [], [], true,  '松江区', 40.1, '玻璃清洗');
 User follower18 = User('刘文洁', AssetImage('assets/images/18.jpg'), [], [], [], [], true,  '松江区', 40.1, '玻璃清洗');
-User follower19 = User('李传合', AssetImage('assets/images/19.jpg'), [], [], [], [], true,  '黄埔区', 40.1, '玻璃清洗');
-User follower21 = User('李传合', AssetImage('assets/images/20.jpg'), [], [], [], [], true,  '宝山区', 40.1, '玻璃清洗');
+User follower19 = User('李阿姨', AssetImage('assets/images/19.jpg'), [], [], [], [], true,  '黄埔区', 40.1, '玻璃清洗');
+User follower21 = User('杨阿姨', AssetImage('assets/images/20.jpg'), [], [], [], [], true,  '宝山区', 40.1, '玻璃清洗');
 User follower22 = User('王琴', AssetImage('assets/images/21.jpg'), [], [], [], [], true,  '嘉定区', 40.1, '玻璃清洗');
 User follower23 = User('李传合', AssetImage('assets/images/22.jpg'), [], [], [], [], true,  '松江区', 40.1, '玻璃清洗');
 
@@ -54,83 +54,45 @@ List<Post> userPosts = [
     Comment(follower16, "五星好评，李阿姨一直很干净，\n我们一家很满意!", DateTime.now(), false),
     Comment(follower14, "李阿姨自带工具，35元/小时的价格\n性价比很高，很高兴找到李阿姨", DateTime.now(), false),
   ], false, false, '18018668010'),
-  Post(AssetImage('assets/images/4.jpg'), follower3, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
+  Post(AssetImage('assets/images/4.jpg'), follower3, "真的做的超干净，阿姨特别负责特别认真", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
+    Comment(follower13, "阿姨干了4个小时，特别干净\n利索，下次还找她", DateTime.now(), false),
+    Comment(follower11, "大叔从早八点就开始忙乎，\n认真细致，五星好评，下次有需要再来。", DateTime.now(), false),
   ], false, false, '19849053454'),
-    Post(AssetImage('assets/images/5.jpg'), follower4, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
+    Post(AssetImage('assets/images/5.jpg'), follower4, "您好，我来自江苏徐州，做钟点工已经有10年了，\n我诚实认真，希望能让您的家焕然一新", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
+    Comment(follower4, "很好。来的小姐姐很负责", DateTime.now(), false),
+    Comment(follower11, "因为每次请保洁阿姨都是让阿姨\n自己在家打扫 不会在旁边看着, \n阿姨打扫得还可以 部分收纳没有整理好 \n可能因为东西太多来不及收拾, 后来是视频\n验收的当时太晚了就让阿姨回去了 \n中间出了点小意外但是后来解决了\n 以后再注意下细节就好了", DateTime.now(), false),
   ], false, false, '19849053455'),
       Post(AssetImage('assets/images/22.jpg'), follower5, "我叫李传合，空调家电清洗是我的强项，让我帮您\n守护家人健康", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
+    Comment(follower18, "好评好评！阿姨阿叔辛苦了！", DateTime.now(), false),
+    Comment(follower13, "师傅很准时还提前等我了。动作很快", DateTime.now(), false),
   ], false, false, '15225398721'),
-      Post(AssetImage('assets/images/7.jpg'), follower6, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
+      Post(AssetImage('assets/images/7.jpg'), follower6, "您好，我来自江苏徐州，做钟点工已经有10年了，\n我诚实认真，希望能让您的家焕然一新", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
+    Comment(follower4, "阿姨打扫的很干净！清洗抽油烟机和\n空调的师傅弄得超级好。焕然一新！!", DateTime.now(), false),
+    Comment(follower14, "师傅很准时还提前等我了。动作很快", DateTime.now(), false),
   ], false, false, '19849053457'),
-      Post(AssetImage('assets/images/8.jpg'), follower7, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
+      Post(AssetImage('assets/images/8.jpg'), follower7, "您好，我来自江苏徐州，做钟点工已经有10年了，\n我诚实认真，希望能让您的家焕然一新", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
+    Comment(follower6, "满意，打扫的挺干净的，\n阿姨干活也很卖力!", DateTime.now(), false),
+    Comment(follower15, "师傅很准时还提前等我了。动作很快", DateTime.now(), false),
   ], false, false, '19849053458'),
-      Post(AssetImage('assets/images/9.jpg'), follower8, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
+      Post(AssetImage('assets/images/9.jpg'), follower8, "您好，我来自江苏徐州，做钟点工已经有10年了，\n我诚实认真，希望能让您的家焕然一新", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
+    Comment(follower18, "满意，打扫的挺干净的，\n阿姨干活也很卖力!", DateTime.now(), false),
+    Comment(follower5, "师傅很准时还提前等我了。动作也很快", DateTime.now(), false),
+    
   ], false, false, '19849053459'),
-  Post(AssetImage('assets/images/10.jpg'), follower9, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
+  Post(AssetImage('assets/images/10.jpg'), follower9, "您好，我来自江苏徐州，做钟点工已经有10年了，\n我诚实认真，希望能让您的家焕然一新", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
+    Comment(follower13, "满意，打扫的挺干净的，\n阿姨干活也很卖力!", DateTime.now(), false),
+    Comment(follower11, "师傅很准时还提前等我了。动作很快", DateTime.now(), false),
+
   ], false, false, '19849053410'),
-  Post(AssetImage('assets/images/11.jpg'), follower10, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
-  ], false, false, '19849053456'),
-  Post(AssetImage('assets/images/12.jpg'), follower11, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
-  ], false, false, '19849053456'),
-  Post(AssetImage('assets/images/13.jpg'), follower12, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
-  ], false, false, '19849053456'),
-  Post(AssetImage('assets/images/14.jpg'), follower13, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
-  ], false, false, '19849053456'),
-  Post(AssetImage('assets/images/15.jpg'), follower14, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
-  ], false, false, '19849053456'),
-  Post(AssetImage('assets/images/17.jpg'), follower15, "Found this in my backyard. \nThought I'd post it jk lol lol lolol", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
-    Comment(follower3, "This was super cool!", DateTime.now(), false),
-    Comment(follower1, "I can't believe it's not \nbutter!", DateTime.now(), false),
-    Comment(user, "I know rite!", DateTime.now(), false),
-    Comment(follower5, "I'm batman", DateTime.now(), false)
-  ], false, false, '19849053456'),
+  Post(AssetImage('assets/images/11.jpg'), follower10, "您好，我来自江苏徐州，做钟点工已经有10年了，\n我诚实认真，希望能让您的家焕然一新", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
+    Comment(follower13, "满意，打扫的挺干净的，\n阿姨干活也很卖力!", DateTime.now(), false),
+    Comment(follower11, "师傅很准时还提前等我了。动作很快", DateTime.now(), false),
+   
+  ], false, false, '19849053412'),
+  Post(AssetImage('assets/images/12.jpg'), follower11, "您好，我来自江苏徐州，做钟点工已经有10年了，\n我诚实认真，希望能让您的家焕然一新", DateTime.now(), [user, follower2, follower3, follower4, follower5], [
+    Comment(follower13, "满意，打扫的挺干净的，\n阿姨干活也很卖力!", DateTime.now(), false),
+    Comment(follower2, "师傅很准时还提前等我了。动作很快", DateTime.now(), false),
+  ], false, false, '19849053424'),
+  
  
  ];
